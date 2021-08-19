@@ -1,5 +1,3 @@
-# Casino-App
-
 # Running App
 1. Run website locally
 ```
