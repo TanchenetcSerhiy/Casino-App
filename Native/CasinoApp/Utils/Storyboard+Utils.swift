@@ -23,7 +23,7 @@ extension UIStoryboard {
     
     class func instantiateFlow(_ flow: StoryboardFlow) -> UIViewController {
         let flowSB = UIStoryboard.get(flow: flow)
-        let initialVC = flowSB.instantiateInitialViewController()! //swiftlint:disable:this force_unwrapping
+        let initialVC = flowSB.instantiateInitialViewController()!
         
         return initialVC
     }
